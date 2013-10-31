@@ -1,7 +1,3 @@
-# cache for current jar dependecy. DO NOT EDIT.
+# cache for current jar dependency. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
-1383180853625 892600 69fe7d8aed7871109f65549f26be110bcbd25933 C:\Users\Jon\git\Dots\libs\sofia-with-dependencies.jar
-1363797969000 892600 69fe7d8aed7871109f65549f26be110bcbd25933 C:\Users\Jon\Sofia-Support\libs\sofia-with-dependencies.jar
-1359911273000 204529 40ce9fed254974681d591dd22ad074523632ed1a C:\Users\Jon\Sofia-Support\libs\student.jar
-1383180853635 204529 40ce9fed254974681d591dd22ad074523632ed1a C:\Users\Jon\git\Dots\libs\student.jar
