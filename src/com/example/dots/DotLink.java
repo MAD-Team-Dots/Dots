@@ -1,29 +1,27 @@
 package com.example.dots;
 
+/**
+ *  Connects two dots together
+ *
+ *  @author Al Zargarpur
+ *  @version Oct 30, 2013
+ */
 public class DotLink
 {
-    Dot dotOne;
-    Dot dotTwo;
+    Node<Dot> otherDot;
 
-    public DotLink(Dot dotOne, Dot dotTwo) {
-        linkDots(dotOne, dotTwo);
-    }
-    public DotLink() {
-        linkDots(null, null);
+    public DotLink(Dot dot) {
+        this.otherDot = new Node<Dot>(dot);
     }
 
-    public DotLink linkDots(Dot dotOne, Dot dotTwo) {
-
-        this.dotOne = dotOne;
-        this.dotTwo = dotTwo;
-
-        return this;
+    public void unLinkDots() {
+        otherDot = null;
     }
-    public Dot getDotOne() {
-        return dotOne;
+    public Dot getLinkedDot() {
+        return otherDot.data();
     }
-    public Dot getDotTwo() {
-           return dotTwo;
+    public void setLinkedDot(Dot dot) {
+        otherDot = new Node<Dot>(dot);
     }
 
 
